@@ -9,7 +9,7 @@ The micro controller connection is primarily meant for mounting a Arduino Pro Mi
 
 The board:
 ----------
-!Media/PCB.png
+!(Media/PCB.png)
 
 The BOM
 -------
