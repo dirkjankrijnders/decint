@@ -889,12 +889,13 @@ P 9600 4350
 F 0 "J104" H 9800 4850 60  0000 C CNN
 F 1 "RJ12" H 9450 4850 60  0000 C CNN
 F 2 "Connectors:RJ12_horizontal" H 9600 4350 60  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1731527.pdf" H 9600 4350 60  0000 C CNN
-F 4 "Lumberg" H 9600 4350 60  0000 C CNN "MFN"
-F 5 "P 128" H 9600 4350 60  0000 C CNN "MFP"
-F 6 "1243235" H 9600 4350 60  0000 C CNN "S1PN"
-F 7 "http://nl.farnell.com/lumberg/p-128/modular-plug-crimp-rj12-6p6c/dp/1243235" H 9600 4350 60  0000 C CNN "S1PL"
-F 8 "Value" H 9600 4350 60  0001 C CNN "Fieldname"
+F 3 "http://www.farnell.com/datasheets/680408.pdf" H 9600 4350 60  0000 C CNN
+F 4 "FCI" H 9600 4350 60  0000 C CNN "MFN"
+F 5 "54601-906WPLF" H 9600 4350 60  0000 C CNN "MFP"
+F 6 "2135977" H 9600 4350 60  0000 C CNN "S1PN"
+F 7 "http://nl.farnell.com/fci/54601-906wplf/modular-jack-tht-r-a-rj12-6p6c/dp/2135977" H 9600 4350 60  0000 C CNN "S1PL"
+F 8 "MODULAR, JACK, THT, R/A, RJ12, 6P6C" H 9600 4350 60  0000 C CNN "Description"
+F 9 "Value" H 9600 4350 60  0001 C CNN "Fieldname"
 	1    9600 4350
 	1    0    0    -1  
 $EndComp
