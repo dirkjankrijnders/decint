@@ -985,10 +985,8 @@ Wire Wire Line
 	8450 5950 8400 5950
 Wire Wire Line
 	8400 5950 8400 5900
-Text GLabel 8850 2650 2    60   Input ~ 0
+Text GLabel 10000 2650 2    60   Input ~ 0
 Loconet_RX
-Wire Wire Line
-	8850 2650 8650 2650
 Text GLabel 7500 2650 0    60   Output ~ 0
 FB3
 Text GLabel 7500 2550 0    60   Output ~ 0
@@ -1012,10 +1010,7 @@ ACK
 Wire Wire Line
 	8850 2550 8650 2550
 Wire Wire Line
-	8650 3050 8700 3050
-Wire Wire Line
-	8700 3050 8700 2650
-Connection ~ 8700 2650
+	8650 3050 9300 3050
 Text Notes 8700 1950 0    60   ~ 0
 Loconet RX should go to the ICP Pin\nThis is pin 12 on the atmega328p, D8 on the pro mini\nThis is pin ?? on the atmega32u4, D4 on the pro micro
 Wire Wire Line
@@ -1135,4 +1130,35 @@ F 8 "Value" H 2800 5550 60  0001 C CNN "Fieldname"
 	1    2800 5550
 	0    -1   -1   0   
 $EndComp
+$Comp
+L JUMPER JP?
+U 1 1 5725C761
+P 9600 2650
+F 0 "JP?" H 9600 2800 50  0000 C CNN
+F 1 "JUMPER" H 9600 2570 50  0000 C CNN
+F 2 "" H 9600 2650 60  0000 C CNN
+F 3 "" H 9600 2650 60  0000 C CNN
+	1    9600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP?
+U 1 1 5725C8A4
+P 9600 3050
+F 0 "JP?" H 9600 3200 50  0000 C CNN
+F 1 "JUMPER" H 9600 2970 50  0000 C CNN
+F 2 "" H 9600 3050 60  0000 C CNN
+F 3 "" H 9600 3050 60  0000 C CNN
+	1    9600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3050 9950 3050
+Wire Wire Line
+	9950 3050 9950 2650
+Wire Wire Line
+	9900 2650 10000 2650
+Connection ~ 9950 2650
+Wire Wire Line
+	9300 2650 8650 2650
 $EndSCHEMATC
