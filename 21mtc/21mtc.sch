@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:21mtc-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:21mtclogo
-LIBS:NTJD4401N
 LIBS:21mtc-cache
 EELAYER 25 0
 EELAYER END
@@ -70,23 +68,19 @@ F 4 "Value" H 5800 3200 60  0001 C CNN "Fieldname"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4100 2700 4400 2700
+	3350 2700 4400 2700
 Wire Wire Line
-	4400 2800 4100 2800
+	3350 2800 4400 2800
 Wire Wire Line
-	4100 2900 4400 2900
+	3350 2900 4400 2900
 Wire Wire Line
-	4100 3100 4400 3100
+	3800 3300 4400 3300
 Wire Wire Line
-	4400 3200 4100 3200
+	3850 3400 4400 3400
 Wire Wire Line
-	4100 3300 4400 3300
+	3350 3500 4400 3500
 Wire Wire Line
-	4400 3400 4100 3400
-Wire Wire Line
-	4100 3500 4400 3500
-Wire Wire Line
-	4400 3600 4100 3600
+	3350 3600 4400 3600
 Wire Wire Line
 	4900 2700 5600 2700
 Wire Wire Line
@@ -113,7 +107,7 @@ Text Label 4100 2800 0    60   ~ 0
 Hall2
 Text Label 4100 2900 0    60   ~ 0
 Hall3
-Text Label 4400 3000 2    60   ~ 0
+Text Label 4350 3000 2    60   ~ 0
 Aux4_ttl
 Text Label 4100 3100 0    60   ~ 0
 TBClock
@@ -211,23 +205,23 @@ NEM 652 / NMRA Medium
 $Comp
 L CONN_01X06 P101
 U 1 1 566EB905
-P 3900 2950
-F 0 "P101" H 3900 3300 50  0000 C CNN
-F 1 "CONN_01X06" V 4000 2950 50  0000 C CNN
-F 2 "Connectors:solderpads_1x06_2mm" H 3900 2950 60  0001 C CNN
-F 3 "" H 3900 2950 60  0000 C CNN
-	1    3900 2950
+P 3150 2950
+F 0 "P101" H 3150 3300 50  0000 C CNN
+F 1 "CONN_01X06" V 3250 2950 50  0000 C CNN
+F 2 "Connectors:solderpads_1x06_2mm" H 3150 2950 60  0001 C CNN
+F 3 "" H 3150 2950 60  0000 C CNN
+	1    3150 2950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04 P105
 U 1 1 566EB947
-P 3900 3450
-F 0 "P105" H 3900 3200 50  0000 C CNN
-F 1 "CONN_01X04" V 4000 3450 50  0000 C CNN
-F 2 "Connectors:solderpads_1x04_2mm" H 3900 3450 60  0001 C CNN
-F 3 "" H 3900 3450 60  0000 C CNN
-	1    3900 3450
+P 3150 3450
+F 0 "P105" H 3150 3200 50  0000 C CNN
+F 1 "CONN_01X04" V 3250 3450 50  0000 C CNN
+F 2 "Connectors:solderpads_1x04_2mm" H 3150 3450 60  0001 C CNN
+F 3 "" H 3150 3450 60  0000 C CNN
+	1    3150 3450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -306,7 +300,7 @@ Wire Wire Line
 	5100 4100 5200 4100
 Connection ~ 5150 4100
 Wire Wire Line
-	3900 4100 3800 4100
+	3800 4100 3900 4100
 Wire Wire Line
 	3850 4150 3850 4100
 Connection ~ 3850 4100
@@ -326,12 +320,6 @@ Wire Wire Line
 	5500 3850 5500 3600
 Wire Wire Line
 	5500 3600 5600 3600
-Wire Wire Line
-	3500 3850 4200 3850
-Wire Wire Line
-	4200 3850 4200 3000
-Wire Wire Line
-	4200 3000 4100 3000
 Wire Wire Line
 	3850 4450 3850 4500
 Wire Wire Line
@@ -382,4 +370,38 @@ Wire Wire Line
 Connection ~ 5350 2900
 Connection ~ 5500 4500
 Connection ~ 3500 4500
+Wire Wire Line
+	4400 3100 3700 3100
+Wire Wire Line
+	3700 3100 3700 3300
+Wire Wire Line
+	3700 3300 3350 3300
+Wire Wire Line
+	3350 3400 3750 3400
+Wire Wire Line
+	3750 3400 3750 3200
+Wire Wire Line
+	3750 3200 4400 3200
+Wire Wire Line
+	3350 3100 3650 3100
+Wire Wire Line
+	3650 3100 3650 3150
+Wire Wire Line
+	3650 3150 3800 3150
+Wire Wire Line
+	3800 3150 3800 3300
+Wire Wire Line
+	3850 3400 3850 3250
+Wire Wire Line
+	3850 3250 3650 3250
+Wire Wire Line
+	3650 3250 3650 3200
+Wire Wire Line
+	3650 3200 3350 3200
+Wire Wire Line
+	3500 3850 3500 3000
+Wire Wire Line
+	3500 3000 3350 3000
+Text Label 3350 3000 0    60   ~ 0
+Aux4
 $EndSCHEMATC
