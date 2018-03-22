@@ -1,4 +1,4 @@
-update=2015 November 16, Monday 16:20:20
+update=2018 March 22, Thursday 16:16:07
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/dirkjan/Projects/Own/Kicad_Library/pyth
+LibName30=/Volumes/Macintosh_HD/Users/dirkjan/Projects/pyth_kicad/pyth

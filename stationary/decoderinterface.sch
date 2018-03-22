@@ -228,7 +228,7 @@ F 3 "" V 3300 1200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM1117 U104
+L LM1117-5.0 U104
 U 1 1 564A0C43
 P 4150 1300
 F 0 "U104" H 4300 1700 60  0000 C CNN
@@ -777,28 +777,19 @@ U 1 1 564B5EC8
 P 4300 7000
 F 0 "U106" H 4500 7300 70  0000 C CNN
 F 1 "LM311N" H 4500 7200 70  0000 C CNN
-F 2 "SMD_Packages:DIP-8_SMD" H 4300 7000 60  0001 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 4300 7000 60  0001 C CNN
 F 3 "" H 4300 7000 60  0000 C CNN
 F 4 "Texas Instruments" H 4300 7000 60  0000 C CNN "MFN"
-F 5 "JEDEC TO-261 Variation AA" H 4300 7000 60  0000 C CNN "Package ID"
-F 6 "Value" H 4300 7000 60  0001 C CNN "Fieldname"
+F 5 "Value" H 4300 7000 60  0001 C CNN "Fieldname"
 	1    4300 7000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 7600 4200 7400
 Wire Wire Line
 	3300 7600 4300 7600
 Wire Wire Line
 	3300 7500 3300 7600
 Connection ~ 3550 7600
-Wire Wire Line
-	4300 7600 4300 7400
 Connection ~ 4200 7600
-Wire Wire Line
-	3550 7100 3800 7100
-Wire Wire Line
-	3800 6900 3300 6900
 Wire Wire Line
 	3300 6750 3300 7200
 Connection ~ 3300 6900
@@ -812,16 +803,12 @@ Wire Wire Line
 Wire Wire Line
 	4900 6550 4900 7000
 Wire Wire Line
-	4800 7000 5000 7000
-Wire Wire Line
 	3550 6750 3550 7200
 Connection ~ 3550 7100
 Wire Wire Line
 	3550 6450 3550 6350
 Wire Wire Line
 	3550 6350 4200 6350
-Wire Wire Line
-	4200 6300 4200 6600
 Text GLabel 5000 7000 2    60   Output ~ 0
 Loconet_RX
 Connection ~ 4900 7000
@@ -1135,4 +1122,16 @@ F 8 "Value" H 2800 5550 60  0001 C CNN "Fieldname"
 	1    2800 5550
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4200 6700 4200 6300
+Wire Wire Line
+	4600 7000 5000 7000
+Wire Wire Line
+	3300 6900 4000 6900
+Wire Wire Line
+	3550 7100 4000 7100
+Wire Wire Line
+	4200 7300 4200 7600
+Wire Wire Line
+	4300 7600 4300 7300
 $EndSCHEMATC
